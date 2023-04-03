@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+    background-color:#1a1515;
+    align-items: center;
+
+}
+nav img{
+    margin-left: 50px;
+}
+
+.list{
+    display: flex;
+    margin-left: -450px;
+    
+}
+.icon{
+    display: flex;
+    margin-right: 50px;
+    
+}
+.list p{
+    margin-left: 20px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.icon svg{
+    margin-left: 45px;
+   fill: white
+}
+.mask{
+    margin-top: 40px;
+    margin-left: 530px;
+    position: relative;
+    
+}
+.mask p{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top:90px ;
+    margin-left: 120px;
+    font-size: 30px;
+    
+}
+.main-div{
+ display: flex;   
+ margin-top: 70px;
+ margin-left: 70PX;
+
+ 
+}
+
+.subclass{
+    margin-left: 60px;
+    width: auto;
+}
+.subclass img{
+    width: 190px;
+}
+
+.subclass h2{
+    font-size: 10px;
+    color: red;
+    text-align: center;
+}
+.subclass p{
+    text-align: center;
+    margin-top: 16px;
+    
+    
+    
+}
+.subclass button {
+    background-color: black;
+    color: #FFF;
+  border: 2px solid white;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 white;
+  transition: ease-out 0.4s;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+}
+   
+   
+  .subclass button:hover {
+    color: white;
+    box-shadow: inset 180px 0 0 0 black;
+    background-color: white;
+  }
+  #outer {
+    width: 180px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+
+  #bottom{
+    align-items: center;
+    
+    
+  }
+
+  .foot{
+    background-color: black;
+    margin-top: 120PX;
+
+  }
+  .lakmee{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 5px;
+  }
+
+  .mainbox{
+    margin-top: 70px;
+    margin-left: 50px
+    
+    
+  }
+
+  .box1 h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+
+  }
+  .box1 ul li{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    margin-top: 20px;
+    font-size:14px;
+  }
+  
+  .mainbox{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+
+  }
+  .box1{
+    margin-right: 300px;
+    
+
+    
+  }
